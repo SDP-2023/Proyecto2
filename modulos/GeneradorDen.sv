@@ -1,5 +1,5 @@
 module GeneradorDen(
-    input [11:0] Columna,
+    input [10:0] Columna,
     input [9:0] Fila,
     output DEN
 );

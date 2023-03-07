@@ -2,15 +2,20 @@ module LCD_SYNC(
     input CLK, RST_n,
     output reg NCLK, GREST, HD, DEN, VD,
     output reg [10:0] Columna,
-    output reg [8:0] Fila
+    output reg [9:0] Fila
 );
     wire HCOUNT_TC;
     wire VCOUNT_TC;
 
+`ifdef TESTBENCH
+    // SOLO PARA TESTS:
+    assign NCLK = CLK;
+`else
     pll_ltm pll_ltm_inst(
         .inclk0(CLK),
         .c0(NCLK)
     );
+`endif
 
     count #(
         .modulo(1056)

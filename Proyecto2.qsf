@@ -60,3 +60,9 @@ set_global_assignment -name SYSTEMVERILOG_FILE modulos/LCD_SYNC.sv
 set_global_assignment -name SYSTEMVERILOG_FILE modulos/GeneradorDen.sv
 set_global_assignment -name VERILOG_FILE modulos/count.v
 set_global_assignment -name QIP_FILE pll_ltm.qip
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_lcd_sync -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_lcd_sync -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_lcd_sync
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_lcd_sync -section_id tb_lcd_sync
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/tb_lcd_sync.sv -section_id tb_lcd_sync
