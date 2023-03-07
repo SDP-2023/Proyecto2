@@ -14,9 +14,9 @@ reg [7:0]m;
 // Iniciamos bloque procedural "always" con entradas como lista de sensibilidad.
 always@(Columnas,Filas) 
 begin 
-      m=(Filas-35)/2; // Renderización de las filas.
-      n=(Columnas-216)/2; // Renderización de las columnas.
-	   Address={m,n}; // Parametrizamos la dirección donde buscar en la ROM.
+      m = (Filas-35)/2; // Renderización de las filas.
+      n = (Columnas-216)/2; // Renderización de las columnas.
+	   Address = {m,n}; // Parametrizamos la dirección donde buscar en la ROM.
 end
 
 endmodule 
