@@ -7,15 +7,15 @@ module direcc(Filas, Columnas, Address);
 input [9:0] Filas;
 input [10:0] Columnas;
 // Declaramos única salida -->
-output reg [16:0] Address; 
+output reg [15:0] Address; // Como son 16 bits --> "[15:0]"
 // Declaramos registros para parametrizarlos según modo de direccionamiento usado.
 reg [8:0]n;
 reg [7:0]m;
 // Iniciamos bloque procedural "always" con entradas como lista de sensibilidad.
 always@(Columnas,Filas) 
 begin 
-      m=(Filas-35)/2; //
-      n=(Columnas-216)/2; //
+      m=(Filas-35)/2; // Renderización de las filas.
+      n=(Columnas-216)/2; // Renderización de las columnas.
 	   Address={m,n}; // Parametrizamos la dirección donde buscar en la ROM.
 end
 
