@@ -16,7 +16,7 @@ always@(Columnas,Filas)
 begin 
       m = (Filas-35)/2; // Renderización de las filas.
       n = (Columnas-216)/2; // Renderización de las columnas.
-	   Address = {m,n}; // Parametrizamos la dirección donde buscar en la ROM.
+	  Address = {m,n}; // Parametrizamos la dirección donde buscar en la ROM.
 end
 
 endmodule 
