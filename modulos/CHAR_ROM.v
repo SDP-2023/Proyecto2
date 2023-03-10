@@ -3,15 +3,15 @@
 
 module CHAR_ROM(Filas, Columnas,NCLK,Data );
 // Declaramos las entradas -->
-input [9:0] Filas;
-input [10:0] Columnas;
-input NCLK;
+input [9:0] Filas ;
+input [10:0] Columnas ;
+input NCLK ;
 // Declaramos salidas -->
-output Data;
+output Data ;
 // Declaramos un cable el cual será utilizado para las instancias -->
-wire [5:0] Address;
+wire [5:0] Address ;
 // Declaramos un parámetro -->
-parameter Caracter=7'h30;
+parameter Caracter=7'h30 ;
 // Instanciamos el módulo de direccionamiento creado en subtarea 3 -->
 direccionamiento DIR (
 	.Columnas(Columnas),
