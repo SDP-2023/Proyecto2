@@ -13,7 +13,7 @@ wire [5:0] Address ;
 // Declaramos un parámetro -->
 parameter Caracter=7'h30 ;
 // Instanciamos el módulo de direccionamiento creado en subtarea 3 -->
-direccionamiento DIR (
+direcc DIR (
 	.Columnas(Columnas),
 	.Filas(Filas),
 	.Address(Address)
