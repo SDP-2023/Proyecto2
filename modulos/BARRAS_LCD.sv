@@ -1,3 +1,9 @@
+/**
+ * Módulo que genera 8 barras verticales de distintos colores para comprobar el correcto funcionamiento
+ * de la pantalla.
+ * @file BARRAS_LCD.sv
+ */
+
 module BARRAS_LCD#(
     parameter BACK_PORCH_X = 216,
     parameter BACK_PORCH_Y = 35,
