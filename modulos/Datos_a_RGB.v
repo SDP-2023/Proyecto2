@@ -5,9 +5,9 @@
 **/
 module Datos_a_RGB(Data, R, G, B);
 // Entrada -->
-input [15:0] Data ; //16bits de tamaño.
+input [15:0] Data ; //16 bits de tamaño.
 // Salidas como registros -->
-output reg [7:0] R, G, B ; // 8bits de tamaño cada una.
+output reg [7:0] R, G, B ; // 8 bits de tamaño cada una.
 // Declaración del bloque procedural always con "Data" como lista de sensibilidad --> 
 always @(Data)
 // En cuanto a la organización de la estructura de posición de color de cada pixel, lo organizamos siguiendo

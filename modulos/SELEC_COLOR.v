@@ -16,7 +16,7 @@ begin
 			G<=8'b11111111 ;
 			B<=8'b00000000 ;			
 		end
-		// Si la entrada está  anivel alto tal
+		// Si la entrada está a nivel alto cambiamos el registro de nivel de color RGB
 	else
 		begin
 			R<=8'b01111111 ;
