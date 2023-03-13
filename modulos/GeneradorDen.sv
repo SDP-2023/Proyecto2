@@ -4,6 +4,6 @@ module GeneradorDen(
     output DEN
 );
 
-assign DEN = Columna > 11'd514 && Columna < 11'd1015 && Fila > 10'd35 && Fila < 10'd216;
-    
+assign DEN = Columna > 11'd216 && Columna < 11'd1015 && Fila > 10'd35 && Fila < 10'd514;
+
 endmodule
