@@ -93,3 +93,7 @@ cov*/
 transcript*
 sc_dpiheader.h
 vsim.dbg
+
+
+# Ignoramos los archivos generados por los testbench
+vga.txt
