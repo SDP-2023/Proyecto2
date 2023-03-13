@@ -1,6 +1,6 @@
 
 /**  Crearemos en este archivo el módulo completo para la representación de la imagen por pantalla de la placa FPGA.
-     Este módulo contendrá todos y cada uno de los módulos creados para ello, es decir, instanciamos "LCD_SYNC", junto a 
+     Este módulo contendrá tods y cada uno de los módulos creados para ello, es decir, instanciamos "LCD_SYNC", junto a 
      "direcc", juntos a "ROM_Image" y finalmente el módulo de "Datos_a_RGB"
 **/
 
