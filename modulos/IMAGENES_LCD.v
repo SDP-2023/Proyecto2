@@ -33,6 +33,7 @@ direcc DIR(
 	.Filas(Fila),
 	.Address(Address)
 ) ;
+// Cada posición de la memoria tendrá un valor de color de un pixel (De ahí el direccionamiento)
 // Instanciamos el módulo de la ROM donde se carga la imagen a monstrar -->
 ROM_Image	ROM_Image_inst(
 	.address (Address),
