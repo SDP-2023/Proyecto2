@@ -17,11 +17,11 @@ wire NCLK, GREST, HD, VD, DEN ;
 wire [7:0] R, G, B ;
 // Declaramos al señal fd (filer display)
 integer fd ;
-// Declaramos un evento el cual actuará como lista de sensibilidad
+// Declaramos un evento el cual actuará como lista de sensibilidad en cuanto al fichero
 event cierraFichero ;
 
 // Instanciamos el DUV (IMAGENES_LCD.v)
-IMAGENES_LCD DUV(
+IMAGENES_LCD DUT(
 	.CLK(CLK),	
 	.RST_n(RST_n),	
 	.NCLK(NCLK),	
