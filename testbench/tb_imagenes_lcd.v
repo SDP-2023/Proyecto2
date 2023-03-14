@@ -19,6 +19,7 @@ wire [7:0] R, G, B ;
 integer fd ;
 // Declaramos un evento el cual actuará como lista de sensibilidad
 event cierraFichero ;
+
 // Instanciamos el DUV (IMAGENES_LCD.v)
 IMAGENES_LCD DUV(
 	.CLK(CLK),	
@@ -65,6 +66,7 @@ initial begin
 	$fclose(fd) ;
 end
 
+// Declaramos el initial para que se muestre en modelSim tods los datos mínimos que queremos saber.
 initial forever begin: guardaFichero
 	@(posedge NCLK) // Siempre que el fichero ya haya acabado de visualizarse, entonces presentamos el tiempo
                     // tardado en ello y los datos mínimos para entender como ha salido tod.
