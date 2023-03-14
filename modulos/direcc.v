@@ -7,7 +7,7 @@ module direcc(Filas, Columnas, Address);
 input [9:0] Filas ;
 input [10:0] Columnas ;
 // Declaramos única salida -->
-output reg [15:0] Address ; // Como son 16 bits --> "[15:0]"
+output reg [16:0] Address ; // Como son 16 bits --> "[15:0]"
 // Declaramos registros para parametrizarlos según modo de direccionamiento usado.
 reg [8:0]n ;
 reg [7:0]m ;
