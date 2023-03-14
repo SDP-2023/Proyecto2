@@ -713,3 +713,9 @@
 #    Time: 0 ps  Iteration: 0  Instance: /tb_imagenes_lcd/DUV/ROM_Image_inst/altsyncram_component/m_default/altsyncram_inst
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 90000  Instance: tb_imagenes_lcd.DUV.LCD_SYNC.pll_ltm_inst.altpll_component.cycloneiii_pll.pll3
+# Fin de la simulacion
+# 
+# Cierro Fichero
+# ** Note: $stop    : C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_imagenes_lcd.v(56)
+#    Time: 22134140 ns  Iteration: 0  Instance: /tb_imagenes_lcd
+# Break in Module tb_imagenes_lcd at C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_imagenes_lcd.v line 56
