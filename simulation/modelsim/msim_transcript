@@ -716,3 +716,12 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./hex/imagen_rgb16_xy.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v(870)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_imagenes_lcd/DUV/ROM_Image_inst/altsyncram_component/m_default/altsyncram_inst
+# ERROR: cannot read ./hex/imagen_rgb16_xy.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "./hex/imagen_rgb16_xy.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v(48976)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_imagenes_lcd/DUV/ROM_Image_inst/altsyncram_component/m_default/altsyncram_inst
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 90000  Instance: tb_imagenes_lcd.DUV.LCD_SYNC.pll_ltm_inst.altpll_component.cycloneiii_pll.pll3
