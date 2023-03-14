@@ -15,7 +15,7 @@ reg CLK, RST_n ;
 // Declaramos los cables que irán enlazados con la instanciación del módulo final -->
 wire NCLK, GREST, HD, VD, DEN ;
 wire [7:0] R, G, B ;
-// Declaramos al señal fd (filer display)
+// Declaramos al señal fd (filer descriptor)
 integer fd ;
 // Declaramos un evento el cual actuará como lista de sensibilidad en cuanto al fichero
 event cierraFichero ;
