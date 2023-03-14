@@ -727,3 +727,31 @@
 add wave -position insertpoint  \
 sim:/tb_imagenes_lcd/DUTa/ROM_Image_inst/address
 restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_imagenes_lcd(fast)
+# Loading work.IMAGENES_LCD(fast)
+# Loading work.LCD_SYNC(fast)
+# Loading work.pll_ltm(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.count(fast)
+# Loading work.count(fast__1)
+# Loading work.GeneradorDen(fast)
+# Loading work.direcc(fast)
+# Loading work.ROM_Image(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.Datos_a_RGB(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (17) for port 'Address'. The port definition is at: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_imagenes_lcd/DUTa/DIR File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/IMAGENES_LCD.v Line: 31
+run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 90000  Instance: tb_imagenes_lcd.DUTa.LCD_SYNC.pll_ltm_inst.altpll_component.cycloneiii_pll.pll3
