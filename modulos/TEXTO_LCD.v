@@ -8,12 +8,12 @@ module TEXTO_LCD( CLK, RST_n, NCLK, GREST, HD, VD, DEN, R, G, B);
 // Declaramos entradas del módulo final -->
 input CLK, RST_n ;
 // Declaramos cables utilizados en las instancias -->
-wire [10:0] Columna ;
-wire [9:0] Fila ;
+wire [10:0] Columna ; // 11 bits
+wire [9:0] Fila ; // 10 bits
 wire Data ;
 // Declaramos salidas finales del módulo las cuales representan el texto -->
 output NCLK, GREST, HD, VD, DEN ;
-output [7:0] R, G, B ;
+output [7:0] R, G, B ; // 8 bits cada uno
 // Instanciamos el módulo de sincronismo de señales -->
 LCD_SYNC LCD_SYNC(
             .CLK(CLK),
