@@ -12,7 +12,7 @@ wire [16:0] Address ; // 17 btis
 wire [15:0] Data ; // 16 bits
 wire [10:0] Columna ; // 11 bits
 wire [9:0] Fila ; // 10 bits
-wire Data ;
+wire Data1 ;
 // Declaramos salidas finales del módulo las cuales representan el texto -->
 output NCLK, GREST, HD, VD, DEN ;
 output [7:0] R, G, B ; // 8 bits cada uno
@@ -42,12 +42,13 @@ ROM_Image	ROM_Image_inst(
 	.q (Data)
 ) ;
 // Instanciamos el módulo para el cambio de valor de data a valor RGB -->
-Datos_a_RGB DataRGB(
+/**Datos_a_RGB DataRGB(
 	.Data(Data),
 	.R(R),
 	.G(G),
 	.B(B)
-) ;
+) ; 
+**/
 // Declaramos módulo inicial del texto en donde se incluye direccionamiento, memorias.... -->
 TEXTO texto(
 	.NCLK(NCLK),
@@ -57,7 +58,7 @@ TEXTO texto(
 ) ;
 // Declaramos módulo para la generación de los colores del texto a presentar -->
 SELEC_COLOR COLOR(
-	.Seleccion_color(Data),
+	.Seleccion_color(Data1),
 	.R(R),
 	.G(G),
 	.B(B)

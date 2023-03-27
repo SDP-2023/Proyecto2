@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE115F29C8
-set_global_assignment -name TOP_LEVEL_ENTITY TEXTO
+set_global_assignment -name TOP_LEVEL_ENTITY IMAGEN_TEXTO_LCD
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:32:29  MARZO 07, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.1.1 Lite Edition"
@@ -63,6 +63,7 @@ set_global_assignment -name EDA_TEST_BENCH_NAME tb_imagenes_lcd -section_id eda_
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_imagenes_lcd
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_imagenes_lcd -section_id tb_imagenes_lcd
 set_global_assignment -name EDA_TEST_BENCH_FILE testbench/tb_imagenes_lcd.v -section_id tb_imagenes_lcd
+set_global_assignment -name VERILOG_FILE modulos/IMAGEN_TEXTO_LCD.v
 set_global_assignment -name VERILOG_FILE modulos/TEXTO_LCD.v
 set_global_assignment -name VERILOG_FILE modulos/TEXTO.v
 set_global_assignment -name VERILOG_FILE modulos/SELEC_COLOR.v
