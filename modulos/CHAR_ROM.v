@@ -12,7 +12,9 @@ output Data ;
 wire [5:0] Address ;
 // Declaramos un parámetro -->
 parameter Caracter=7'h30 ;
-// Instanciamos el módulo de direccionamiento creado en subtarea 3 -->
+// Instanciamos el módulo de direccionamiento creado en subtarea 3
+// Se instancia justamente en la ROM, para realizar la misma función que anteriormente, direccionar en que 
+// parte de la memoria estamos trabajando -->
 direcc DIR (
 	.Columnas(Columnas),
 	.Filas(Filas),
