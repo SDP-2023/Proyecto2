@@ -58,7 +58,7 @@ initial
    end 	
 // Generamos 
 initial begin
-	fd = $fopen("vga.txt","w");
+	fd = $fopen("vga_names.txt","w");
 	@(cierraFichero);
 	disable guardaFichero;
 	$display("Cierro Fichero");
