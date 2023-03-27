@@ -40,7 +40,7 @@ always
 begin
     #(T/2)CLK <= ~CLK ;
 end
-// Generamos
+// Generamos cambios de las señales según unos tiempos puestos por nosotros -->
 initial
    begin
 	CLK = 1'b0;
@@ -48,6 +48,7 @@ initial
 	#(T*20);
 	RST_n = 1'b1;
 	#(T*1050000);
+    // Con la sincronía vertical se acaba la simulación (Cierre de fichero) -->
 	@(negedge VD);
 	begin
         $display("Fin de la simulacion\n");
@@ -56,7 +57,7 @@ initial
         $stop;
 	end
    end 	
-// Generamos 
+// Generamos la creación del fichero donde aparecen nombres, se guarda y se cierra -->
 initial begin
 	fd = $fopen("vga_names.txt","w");
 	@(cierraFichero);
