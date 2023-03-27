@@ -65,7 +65,7 @@ initial begin
 	$display("Cierro Fichero");
 	$fclose(fd);
 end
-// Generamos 
+// Generamos la creación de los valores obtenidos en la simulación y testeo -->
 initial forever begin: guardaFichero
 	@(posedge NCLK) 
 	$fwrite(fd,"%0t ps: %b %b %b %b %b %b\n",$time,HD,VD,DEN,R,G,B);
