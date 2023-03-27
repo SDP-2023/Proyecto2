@@ -31,7 +31,7 @@ direcc DIR(
 	.Address({vFila,vColumna})
 ) ;
 // Instanciamos la memoria interna con el texto de los nombres de Arnau y Carlos en .mif -->
-ROM_texto	ROM_texto_inst (
+ROM_text	ROM_text_inst (
 	.address ({vFila[7:3],vColumna[8:3]}),
 	.clock (NCLK),
 	.q (iData)
