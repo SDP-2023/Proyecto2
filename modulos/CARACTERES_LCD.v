@@ -19,7 +19,7 @@ output [7:0] R, G, B ;
 wire [10:0] Columna ;
 wire [9:0] Fila ;
 wire Data ;
-// Declaramos parámetro -->
+// Declaramos parámetro dado por la memoria de la subtarea4 -->
 parameter m=7'h30 ;
 // Instanciamos el módulo de sincronización -->
 LCD_SYNC LCD_SYNC(
@@ -38,6 +38,7 @@ CHAR_ROM  #(.Caracter(m)) CHAR(
     .Filas(Fila),
     .Columnas(Columna),
 	.NCLK(NCLK),
+	// Según el diseño proporcionado es "pixel_on_off"
 	.Data(Data)
 ); 
 // Declaramos módulo de la selección de los colores -->
