@@ -1,5 +1,11 @@
 /** Aquí instanciaremos tods y cada uno de los módulos conformados para la realización de la subtarea 4.
-	
+	En esta subtarea se pretende crear una imágen de pçixeles los cuales generen unos caracteres
+	cuales nosotros queramos representar.
+	Esto se conseguirá llenando toda la pantalla con los huecos de los píxeles llenos o no, lo que determinará
+	una forma de caracter u otra.
+	Su implementación es muy sencilla ya que solo hay que gestionar la generación de las señales RGB.
+	Ahora habrá que usar una memoria interna como la usada en la subtarea anterior, esto es debido a que
+	la pantalla se está actualizanco constantemente, por lo que la memoria mantiene dichos caracteres.
 **/
 
 module CARACTERES_LCD ( CLK, RST_n, NCLK, GREST, HD, VD, DEN, R, G, B);
