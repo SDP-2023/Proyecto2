@@ -14,7 +14,7 @@ reg CLK, RST_n;
 wire NCLK, GREST, HD, VD, DEN;
 wire [7:0] R, G, B;
 // Declaramos parámetro de tiempo -->
-parameter T = 20;
+parameter T = 40000;
 // Declarmos valor entero de de filer descriptor (fd) -->
 integer fd;
 // Declaramos el evento que indica el cierre mismo del fichero a usar (Estará como lista de sensibilidad) -->
