@@ -1,4 +1,4 @@
-`define TESTBENCH
+//`define TESTBENCH
 /**
     En este fichero realizamos el testbench del módulo "CARACTERES_LCD.v".
     Lo realizamos mediante la misma estructura desarrollada hasta ahora.
@@ -14,7 +14,7 @@ reg CLK, RST_n;
 wire NCLK, GREST, HD, VD, DEN;
 wire [7:0] R, G, B;
 // Declaramos parámetro de tiempo -->
-parameter T = 40000;
+parameter T = 20;
 // Declarmos valor entero de de filer descriptor (fd) -->
 integer fd;
 // Declaramos el evento que indica el cierre mismo del fichero a usar (Estará como lista de sensibilidad) -->
