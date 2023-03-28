@@ -25,7 +25,7 @@ begin
 	Register[2:0]<=vColumna[2:0] ; // del bit 0 al bit 3 en el register
 end
 // Instanciamos módulo de direccionamiento (X-Y) con el nuevo métdo de fila y columna presentado -->
-direcc DIR(
+direcc_texto DIR(
 	.Columnas(Columna),
 	.Filas(Fila),
 	.Address({vFila,vColumna})

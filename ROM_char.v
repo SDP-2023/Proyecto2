@@ -97,7 +97,7 @@ module ROM_char (
 		altsyncram_component.outdata_aclr_a = "NONE",
 		altsyncram_component.outdata_reg_a = "UNREGISTERED",
 		altsyncram_component.widthad_a = 13,
-		altsyncram_component.width_a = 8,
+		altsyncram_component.width_a = 1,
 		altsyncram_component.width_byteena_a = 1;
 
 

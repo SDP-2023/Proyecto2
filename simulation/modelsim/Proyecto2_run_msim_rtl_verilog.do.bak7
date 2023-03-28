@@ -33,11 +33,11 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc_texto.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/GeneradorDen.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO_LCD.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/SELEC_COLOR.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/count.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/pll_ltm.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v}
