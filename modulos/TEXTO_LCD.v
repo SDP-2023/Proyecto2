@@ -1,6 +1,10 @@
 
 /**
-
+	En este módulo se pretende realizar la visualización de solo texto en la pantalla de la placa intel 
+	FPG-A.
+	Para ello deberemos instanciar el módulo de sincronismo de la pantalla, seguidamente se instancia
+	un módulo previo de tdo el direccionamiento del texto sobre la pantalla y la memoria interna del (.mif).
+	Por último se instanciará el selector de color sobre la pantalla dependiente del dato a meter y los RGB.
 **/
 
 
