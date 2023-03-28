@@ -13,7 +13,7 @@ module BARRAS_LCD#(
     parameter SCREEN_SIZE_Y = 480
 )(
     input CLK, RST_n,
-    output reg NCLK, GREST, HD, DEN, VD,
+    output NCLK, GREST, HD, DEN, VD,
     output reg [7:0] R, G, B
 );
 
