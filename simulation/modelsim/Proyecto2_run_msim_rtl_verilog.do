@@ -33,20 +33,19 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc_texto.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/GeneradorDen.v}
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/SELEC_COLOR.v}
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CHAR_ROM.v}
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CARACTERES_LCD.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/IMAGENES_LCD.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/Datos_a_RGB.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/count.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/pll_ltm.v}
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_Image.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/LCD_SYNC.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db/pll_ltm_altpll.v}
 
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_caracteres_lcd.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_imagenes_lcd.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_caracteres_lcd
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_imagenes_lcd
 
 add wave *
 view structure
