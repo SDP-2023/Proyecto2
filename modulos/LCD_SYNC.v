@@ -1,6 +1,7 @@
 module LCD_SYNC(
     input CLK, RST_n,
-    output reg NCLK, GREST, HD, DEN, VD,
+    output reg NCLK, DEN,
+    output HD, VD, GREST,
     output reg [10:0] Columna,
     output reg [9:0] Fila
 );
