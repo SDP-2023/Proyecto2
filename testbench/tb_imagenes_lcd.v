@@ -59,7 +59,7 @@ initial
 
 // Declaramos "initial"  en donde se abre el archivo y se cierra dependiendo de los saltos que se hagan.
 initial begin
-	fd = $fopen("vga.txt","w") ;
+	fd = $fopen("vga_imagenes.txt","w") ;
 	@(cierraFichero) ;
 	disable guardaFichero ;
 	$display("Cierro Fichero") ;
