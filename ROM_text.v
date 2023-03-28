@@ -87,7 +87,7 @@ module ROM_text (
 		altsyncram_component.intended_device_family = "Cyclone IV E",
 		altsyncram_component.lpm_hint = "ENABLE_RUNTIME_MOD=NO",
 		altsyncram_component.lpm_type = "altsyncram",
-		altsyncram_component.numwords_a = 2048,
+		altsyncram_component.numwords_a = 1920,
 		altsyncram_component.operation_mode = "ROM",
 		altsyncram_component.outdata_aclr_a = "NONE",
 		altsyncram_component.outdata_reg_a = "UNREGISTERED",
@@ -154,6 +154,6 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text.cmp FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text.bsf FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text_inst.v FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text_bb.v TRUE
 // Retrieval info: LIB_FILE: altera_mf

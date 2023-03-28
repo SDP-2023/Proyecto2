@@ -22,7 +22,7 @@ DATA_RADIX=HEX;
 
 CONTENT BEGIN
 
-[0..77F] : 0;
+[0..34C] : 0;
 
 34D : 41 ; -- A
 34E : 72 ; -- r
@@ -39,6 +39,8 @@ CONTENT BEGIN
 359 : 72 ; -- r
 35A : 61 ; -- a
 35B : 73 ; -- s
+
+[35C..3C5] : 0;
 
 3C6 : 43 ; -- C
 3C7 : 61 ; -- a
@@ -62,5 +64,7 @@ CONTENT BEGIN
 3DF : 6E ; -- n
 3E0 : 65 ; -- e
 3E1 : 7A ; -- z
+
+[3E2..77F] : 0;
 
 END;

@@ -105,6 +105,6 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text.cmp FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text.bsf FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text_inst.v FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL ROM_text_bb.v TRUE
 // Retrieval info: LIB_FILE: altera_mf

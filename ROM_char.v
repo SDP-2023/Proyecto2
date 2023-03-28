@@ -43,7 +43,7 @@ module ROM_char (
 
 	input	[12:0]  address;
 	input	  clock;
-	output	[0:0]  q;
+	output	[7:0]  q;
 `ifndef ALTERA_RESERVED_QIS
 // synopsys translate_off
 `endif
@@ -52,8 +52,8 @@ module ROM_char (
 // synopsys translate_on
 `endif
 
-	wire [0:0] sub_wire0;
-	wire [0:0] q = sub_wire0[0:0];
+	wire [7:0] sub_wire0;
+	wire [7:0] q = sub_wire0[7:0];
 
 	altsyncram	altsyncram_component (
 				.address_a (address),
@@ -71,7 +71,7 @@ module ROM_char (
 				.clocken1 (1'b1),
 				.clocken2 (1'b1),
 				.clocken3 (1'b1),
-				.data_a (1'b1),
+				.data_a ({8{1'b1}}),
 				.data_b (1'b1),
 				.eccstatus (),
 				.q_b (),
@@ -97,7 +97,7 @@ module ROM_char (
 		altsyncram_component.outdata_aclr_a = "NONE",
 		altsyncram_component.outdata_reg_a = "UNREGISTERED",
 		altsyncram_component.widthad_a = 13,
-		altsyncram_component.width_a = 1,
+		altsyncram_component.width_a = 8,
 		altsyncram_component.width_byteena_a = 1;
 
 
