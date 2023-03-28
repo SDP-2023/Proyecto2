@@ -6252,3 +6252,5 @@
 # ** Note: $stop    : C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v(57)
 #    Time: 22134140 ns  Iteration: 0  Instance: /tb_texto_lcd
 # Break in Module tb_texto_lcd at C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v line 57
+# End time: 12:30:12 on Mar 28,2023, Elapsed time: 0:11:26
+# Errors: 0, Warnings: 5
