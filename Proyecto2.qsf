@@ -38,10 +38,10 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE115F29C8
-set_global_assignment -name TOP_LEVEL_ENTITY IMAGEN_TEXTO_LCD
+set_global_assignment -name TOP_LEVEL_ENTITY BARRAS_LCD
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:32:29  MARZO 07, 2023"
-set_global_assignment -name LAST_QUARTUS_VERSION "17.1.1 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.1 Standard Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -63,6 +63,11 @@ set_global_assignment -name EDA_TEST_BENCH_NAME tb_imagenes_lcd -section_id eda_
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_imagenes_lcd
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_imagenes_lcd -section_id tb_imagenes_lcd
 set_global_assignment -name EDA_TEST_BENCH_FILE testbench/tb_imagenes_lcd.v -section_id tb_imagenes_lcd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE modulos/GeneradorDen.v
+set_global_assignment -name VERILOG_FILE modulos/BARRAS_LCD.v
 set_global_assignment -name VERILOG_FILE modulos/IMAGEN_TEXTO_LCD.v
 set_global_assignment -name VERILOG_FILE modulos/TEXTO_LCD.v
 set_global_assignment -name VERILOG_FILE modulos/TEXTO.v
@@ -72,14 +77,41 @@ set_global_assignment -name VERILOG_FILE modulos/CARACTERES_LCD.v
 set_global_assignment -name VERILOG_FILE modulos/IMAGENES_LCD.v
 set_global_assignment -name VERILOG_FILE modulos/direcc.v
 set_global_assignment -name VERILOG_FILE modulos/Datos_a_RGB.v
-set_global_assignment -name SYSTEMVERILOG_FILE modulos/LCD_SYNC.sv
-set_global_assignment -name SYSTEMVERILOG_FILE modulos/GeneradorDen.sv
 set_global_assignment -name VERILOG_FILE modulos/count.v
 set_global_assignment -name QIP_FILE pll_ltm.qip
 set_global_assignment -name QIP_FILE ROM_Image.qip
 set_global_assignment -name QIP_FILE ROM_char.qip
 set_global_assignment -name QIP_FILE ROM_text.qip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE modulos/LCD_SYNC.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_location_assignment PIN_AE25 -to R[0]
+set_location_assignment PIN_AG22 -to R[1]
+set_location_assignment PIN_AE24 -to R[2]
+set_location_assignment PIN_AH22 -to R[3]
+set_location_assignment PIN_AF26 -to R[4]
+set_location_assignment PIN_AE20 -to R[5]
+set_location_assignment PIN_AG23 -to R[6]
+set_location_assignment PIN_AF20 -to R[7]
+set_location_assignment PIN_AE15 -to NCLK
+set_location_assignment PIN_AF16 -to HD
+set_location_assignment PIN_AH26 -to GREST
+set_location_assignment PIN_AC22 -to G[0]
+set_location_assignment PIN_AE22 -to G[1]
+set_location_assignment PIN_AF21 -to G[2]
+set_location_assignment PIN_AF22 -to G[3]
+set_location_assignment PIN_AD22 -to G[4]
+set_location_assignment PIN_AG25 -to G[5]
+set_location_assignment PIN_AD25 -to G[6]
+set_location_assignment PIN_AH25 -to G[7]
+set_location_assignment PIN_AC19 -to DEN
+set_location_assignment PIN_Y2 -to CLK
+set_location_assignment PIN_M23 -to RST_n
+set_location_assignment PIN_AD19 -to VD
+set_location_assignment PIN_AD15 -to B[0]
+set_location_assignment PIN_AE16 -to B[1]
+set_location_assignment PIN_AD21 -to B[2]
+set_location_assignment PIN_Y16 -to B[3]
+set_location_assignment PIN_AF15 -to B[4]
+set_location_assignment PIN_AF24 -to B[5]
+set_location_assignment PIN_AE21 -to B[6]
+set_location_assignment PIN_AF25 -to B[7]

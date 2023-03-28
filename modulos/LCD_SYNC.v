@@ -1,9 +1,8 @@
 module LCD_SYNC(
     input CLK, RST_n,
-    output reg NCLK, DEN,
-    output HD, VD, GREST,
-    output reg [10:0] Columna,
-    output reg [9:0] Fila
+	 output DEN, NCLK, GREST, HD, VD,
+    output [10:0] Columna,
+    output [9:0] Fila
 );
     wire HCOUNT_TC;
     wire VCOUNT_TC;
