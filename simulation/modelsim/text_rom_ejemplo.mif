@@ -1,0 +1,69 @@
+-- Copyright (C) 2017  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=7;
+DEPTH=1920;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	[000..34C]  :   00;
+	34D  :   42;
+	34E  :   45;
+	34F  :   52;
+	350  :   4E;
+	351  :   41;
+	352  :   52;
+	353  :   44;
+	354  :   4F;
+	355  :   20;
+	356  :   45;
+	357  :   4E;
+	358  :   47;
+	359  :   55;
+	35A  :   49;
+	35B  :   58;
+	35C  :   20;
+	35D  :   43;
+	35E  :   48;
+	35F  :   4F;
+	360  :   52;
+	361  :   44;
+	362  :   41;
+	[363..3CE]  :   00;
+	3CF  :   43;
+	3D0  :   41;
+	3D1  :   52;
+	3D2  :   4C;
+	3D3  :   4F;
+	3D4  :   53;
+	3D5  :   20;
+	3D6  :   4D;
+	3D7  :   41;
+	3D8  :   49;
+	3D9  :   4E;
+	3DA  :   41;
+	3DB  :   52;
+	3DC  :   20;
+	3DD  :   4A;
+	3DE  :   4F;
+	3DF  :   56;
+	3E0  :   41;
+	3E1  :   4E;
+	3E2  :   49;
+	[3E3..77F]  :   00;
+END;
