@@ -15,7 +15,7 @@ parameter Caracter=7'h30 ;
 // Instanciamos el módulo de direccionamiento creado en subtarea 3
 // Se instancia justamente en la ROM, para realizar la misma función que anteriormente, direccionar en que 
 // parte de la memoria estamos trabajando -->
-direcc DIR (
+direcc_texto DIR (
 	.Columnas(Columnas),
 	.Filas(Filas),
 	.Address(Address)
