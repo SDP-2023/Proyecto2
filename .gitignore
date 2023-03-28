@@ -34,7 +34,7 @@
 *.done
 *.eqn
 #*.hex
-simulation/*/*.hex
+simulation/**/*.hex
 *.html
 *.jdi
 *.jpg
