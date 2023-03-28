@@ -1,3 +1,4 @@
+`define TESTBENCH
 /**
     En este fichero realizamos el testbench del módulo "CARACTERES_LCD.v".
     Lo realizamos mediante la misma estructura desarrollada hasta ahora.

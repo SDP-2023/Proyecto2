@@ -1,4 +1,4 @@
-
+`define TESTBENCH
 /**
     En este diseño se propone la verificación del módulo de "TEXTO_LCD.v" creado previamente mediante las
     especificaciones del guión del proyecto_2_SDP.
