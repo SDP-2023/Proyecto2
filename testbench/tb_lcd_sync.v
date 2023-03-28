@@ -1,9 +1,9 @@
 `define TESTBENCH
-
+/**
 `include "modulos/count.v"
 `include "modulos/GeneradorDen.sv"
 `include "modulos/LCD_SYNC.sv"
-
+**/
 `timescale 1ns/100ps // Cuanto es el paso de la simulación (siempre igual)
 
 module tb_lcd_sync();
