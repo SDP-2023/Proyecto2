@@ -17,8 +17,7 @@ wire [9:0] Fila ; // 10 bits
 wire Data ;
 // Declaramos salidas finales del módulo las cuales representan el texto -->
 output NCLK, GREST, HD, VD, DEN ;
-output [7:0] R ;
-output G, B ; // 8 bits cada uno
+output [7:0] R, G, B ; // 8 bits cada uno
 // Instanciamos el módulo de sincronismo de señales -->
 LCD_SYNC LCD_SYNC(
             .CLK(CLK),
