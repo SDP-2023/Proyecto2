@@ -756,3 +756,11 @@
 #    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/ROM_text_inst/altsyncram_component/m_default/altsyncram_inst
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 90000  Instance: tb_texto_lcd.DUT.LCD_SYNC.pll_ltm_inst.altpll_component.cycloneiii_pll.pll3
+# Fin de la simulacion
+# 
+# Cierro Fichero
+# ** Note: $stop    : C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v(57)
+#    Time: 22134140 ns  Iteration: 0  Instance: /tb_texto_lcd
+# Break in Module tb_texto_lcd at C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v line 57
+# End time: 09:59:14 on Mar 28,2023, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 7
