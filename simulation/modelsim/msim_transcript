@@ -45049,3 +45049,5 @@
 # ** Note: $stop    : C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_imagenes_lcd.v(56)
 #    Time: 22134140 ns  Iteration: 0  Instance: /tb_imagenes_lcd
 # Break in Module tb_imagenes_lcd at C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_imagenes_lcd.v line 56
+# End time: 11:42:39 on Mar 28,2023, Elapsed time: 0:09:47
+# Errors: 0, Warnings: 0
