@@ -44,9 +44,9 @@ vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Pro
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/LCD_SYNC.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db/pll_ltm_altpll.v}
 
-vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_caracteres_lcd.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_caracteres_lcd
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_texto_lcd
 
 add wave *
 view structure

@@ -28,7 +28,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_primitives.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:18 on Mar 28,2023
+# Start time: 10:04:46 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -110,7 +110,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 09:56:18 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:46 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -122,7 +122,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/17.1/quartus/eda/sim_lib/220model.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:19 on Mar 28,2023
+# Start time: 10:04:47 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/17.1/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -186,7 +186,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 09:56:19 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:47 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -198,7 +198,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/17.1/quartus/eda/sim_lib/sgate.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:19 on Mar 28,2023
+# Start time: 10:04:47 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/17.1/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -240,7 +240,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 09:56:19 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:47 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -252,7 +252,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:20 on Mar 28,2023
+# Start time: 10:04:47 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -382,7 +382,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 09:56:20 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:48 on Mar 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -394,7 +394,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_lnsim.sv}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:21 on Mar 28,2023
+# Start time: 10:04:48 on Mar 28,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -477,7 +477,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 09:56:21 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:49 on Mar 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -489,7 +489,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {c:/intelfpga_lite/17.1/quartus/eda/sim_lib/cycloneive_atoms.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:21 on Mar 28,2023
+# Start time: 10:04:49 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver c:/intelfpga_lite/17.1/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -567,7 +567,7 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 09:56:22 on Mar 28,2023, Elapsed time: 0:00:01
+# End time: 10:04:49 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -579,134 +579,124 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc_texto.v}
-# QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:22 on Mar 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc_texto.v 
-# -- Compiling module direcc_texto
-# 
-# Top level modules:
-# 	direcc_texto
-# End time: 09:56:22 on Mar 28,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/GeneradorDen.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:22 on Mar 28,2023
+# Start time: 10:04:50 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/GeneradorDen.v 
 # -- Compiling module GeneradorDen
 # 
 # Top level modules:
 # 	GeneradorDen
-# End time: 09:56:22 on Mar 28,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO_LCD.v}
-# QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:22 on Mar 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO_LCD.v 
-# -- Compiling module TEXTO_LCD
-# 
-# Top level modules:
-# 	TEXTO_LCD
-# End time: 09:56:22 on Mar 28,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO.v}
-# QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:22 on Mar 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO.v 
-# -- Compiling module TEXTO
-# 
-# Top level modules:
-# 	TEXTO
-# End time: 09:56:22 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:50 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/SELEC_COLOR.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:22 on Mar 28,2023
+# Start time: 10:04:50 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/SELEC_COLOR.v 
 # -- Compiling module SELEC_COLOR
 # 
 # Top level modules:
 # 	SELEC_COLOR
-# End time: 09:56:22 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:50 on Mar 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CHAR_ROM.v}
+# QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 10:04:50 on Mar 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CHAR_ROM.v 
+# -- Compiling module CHAR_ROM
+# 
+# Top level modules:
+# 	CHAR_ROM
+# End time: 10:04:50 on Mar 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CARACTERES_LCD.v}
+# QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 10:04:50 on Mar 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CARACTERES_LCD.v 
+# -- Compiling module CARACTERES_LCD
+# 
+# Top level modules:
+# 	CARACTERES_LCD
+# End time: 10:04:50 on Mar 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc.v}
+# QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 10:04:50 on Mar 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc.v 
+# -- Compiling module direcc
+# 
+# Top level modules:
+# 	direcc
+# End time: 10:04:50 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/count.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:23 on Mar 28,2023
+# Start time: 10:04:50 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/count.v 
 # -- Compiling module count
 # 
 # Top level modules:
 # 	count
-# End time: 09:56:23 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:50 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/pll_ltm.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:23 on Mar 28,2023
+# Start time: 10:04:50 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/pll_ltm.v 
 # -- Compiling module pll_ltm
 # 
 # Top level modules:
 # 	pll_ltm
-# End time: 09:56:23 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:51 on Mar 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:23 on Mar 28,2023
+# Start time: 10:04:51 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v 
 # -- Compiling module ROM_char
 # 
 # Top level modules:
 # 	ROM_char
-# End time: 09:56:23 on Mar 28,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2 {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_text.v}
-# QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:23 on Mar 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_text.v 
-# -- Compiling module ROM_text
-# 
-# Top level modules:
-# 	ROM_text
-# End time: 09:56:23 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:51 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/LCD_SYNC.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:23 on Mar 28,2023
+# Start time: 10:04:51 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/LCD_SYNC.v 
 # -- Compiling module LCD_SYNC
 # 
 # Top level modules:
 # 	LCD_SYNC
-# End time: 09:56:23 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:51 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db/pll_ltm_altpll.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:23 on Mar 28,2023
+# Start time: 10:04:51 on Mar 28,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/db/pll_ltm_altpll.v 
 # -- Compiling module pll_ltm_altpll
 # 
 # Top level modules:
 # 	pll_ltm_altpll
-# End time: 09:56:23 on Mar 28,2023, Elapsed time: 0:00:00
+# End time: 10:04:51 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench {C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_caracteres_lcd.v}
 # QuestaSim-64 vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 09:56:23 on Mar 28,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v 
-# -- Compiling module tb_texto_lcd
+# Start time: 10:04:51 on Mar 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench" C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_caracteres_lcd.v 
+# -- Compiling module tb_caracteres_lcd
 # 
 # Top level modules:
-# 	tb_texto_lcd
-# End time: 09:56:23 on Mar 28,2023, Elapsed time: 0:00:00
+# 	tb_caracteres_lcd
+# End time: 10:04:51 on Mar 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_texto_lcd
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_texto_lcd 
-# Start time: 09:56:23 on Mar 28,2023
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_caracteres_lcd
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_caracteres_lcd 
+# Start time: 10:04:51 on Mar 28,2023
 # ** Note: (vsim-3812) Design is being optimized...
-# Loading work.tb_texto_lcd(fast)
-# Loading work.TEXTO_LCD(fast)
+# Loading work.tb_caracteres_lcd(fast)
+# Loading work.CARACTERES_LCD(fast)
 # Loading work.LCD_SYNC(fast)
 # Loading work.pll_ltm(fast)
 # Loading altera_mf_ver.altpll(fast)
@@ -719,27 +709,22 @@
 # Loading work.count(fast)
 # Loading work.count(fast__1)
 # Loading work.GeneradorDen(fast)
-# Loading work.TEXTO(fast)
-# Loading work.direcc_texto(fast)
-# Loading work.ROM_text(fast)
+# Loading work.CHAR_ROM(fast)
+# Loading work.direcc(fast)
+# Loading work.ROM_char(fast)
 # Loading altera_mf_ver.altsyncram(fast)
 # Loading altera_mf_ver.altsyncram_body(fast)
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
-# Loading work.ROM_char(fast)
-# Loading altera_mf_ver.altsyncram(fast__1)
-# Loading altera_mf_ver.altsyncram_body(fast__1)
 # Loading work.SELEC_COLOR(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (10) for port 'Filas'. The port definition is at: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc_texto.v(8).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/DIR File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO.v Line: 28
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (11) for port 'Columnas'. The port definition is at: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc_texto.v(8).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/DIR File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (6) for port 'Address'. The port definition is at: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/direcc.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_caracteres_lcd/DUT/CHAR/DIR File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CHAR_ROM.v Line: 18
 # ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/ROM_char_inst File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/TEXTO.v Line: 40
+#    Time: 0 ps  Iteration: 0  Instance: /tb_caracteres_lcd/DUT/CHAR/ROM_char_inst File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/modulos/CHAR_ROM.v Line: 24
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (8) for port 'data_a'. The port definition is at: c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v(47596).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/ROM_char_inst/altsyncram_component File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v Line: 58
+#    Time: 0 ps  Iteration: 0  Instance: /tb_caracteres_lcd/DUT/CHAR/ROM_char_inst/altsyncram_component File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v Line: 58
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (8) for port 'q_a'. The port definition is at: c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v(47612).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/ROM_char_inst/altsyncram_component File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v Line: 58
+#    Time: 0 ps  Iteration: 0  Instance: /tb_caracteres_lcd/DUT/CHAR/ROM_char_inst/altsyncram_component File: C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/ROM_char.v Line: 58
 # 
 # add wave *
 # view structure
@@ -747,20 +732,11 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./mif/text_rom_ArnauMoraGras_CarlosVillenaJimenez.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/ROM_text_inst/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read ./mif/text_rom_ArnauMoraGras_CarlosVillenaJimenez.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "./mif/text_rom_ArnauMoraGras_CarlosVillenaJimenez.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : c:/intelfpga_lite/17.1/quartus/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /tb_texto_lcd/DUT/texto/ROM_text_inst/altsyncram_component/m_default/altsyncram_inst
 #  Note : Cyclone IV E PLL locked to incoming clock
-# Time: 90000  Instance: tb_texto_lcd.DUT.LCD_SYNC.pll_ltm_inst.altpll_component.cycloneiii_pll.pll3
+# Time: 90000  Instance: tb_caracteres_lcd.DUT.LCD_SYNC.pll_ltm_inst.altpll_component.cycloneiii_pll.pll3
 # Fin de la simulacion
 # 
 # Cierro Fichero
-# ** Note: $stop    : C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v(57)
-#    Time: 22134140 ns  Iteration: 0  Instance: /tb_texto_lcd
-# Break in Module tb_texto_lcd at C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_texto_lcd.v line 57
-# End time: 09:59:14 on Mar 28,2023, Elapsed time: 0:02:51
-# Errors: 0, Warnings: 7
+# ** Note: $stop    : C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_caracteres_lcd.v(52)
+#    Time: 22134140 ns  Iteration: 0  Instance: /tb_caracteres_lcd
+# Break in Module tb_caracteres_lcd at C:/Users/Carlos/Desktop/SDP_2/SDP-2023/Proyecto2/testbench/tb_caracteres_lcd.v line 52
