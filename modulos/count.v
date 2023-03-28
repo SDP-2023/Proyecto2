@@ -37,7 +37,9 @@ always @(posedge CLK or negedge RSTn)
 	end
 	
     // TC cogerá el valor de UNO, en caso de que se halla finalizado la cuenta, y sino, cogerá valor CERO
-	assign TC = (COUNT == modulo-1)? 1'b1 : 1'b0 ;
+	assign TC = UP_DOWN == 1'b1 ?
+        (COUNT == modulo-1)? 1'b1 : 1'b0 :
+        (COUNT == 0)? 1'b1 : 1'b0;
 
 /** Este contador será instanciado, ya que se ha creado parametrizable, para cualquier uso **/
 
